@@ -408,8 +408,7 @@ label {
   background-image: url(../images/checkbox.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-origin: border-box;
-  border-color: var(--activestate);
+  border: 2px solid var(--activestate);
   background-position: center;
 }
 
