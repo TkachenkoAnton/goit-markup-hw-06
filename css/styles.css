@@ -245,10 +245,9 @@ a {
 
 .mainbtn {
   display: block;
+  width: 200px;
   padding-top: 10px;
-  padding-right: 32px;
   padding-bottom: 10px;
-  padding-left: 32px;
   margin-right: auto;
   margin-left: auto;
   border-width: 0px;
