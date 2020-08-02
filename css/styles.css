@@ -406,9 +406,10 @@ label {
 .checkbox__input:checked + .checkbox__custom-made {
   background-color: var(--activestate);
   background-image: url(../images/checkbox.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  border: 2px solid var(--activestate);
+  background-origin: border-box;
+  border-color: var(--activestate);
   background-position: center;
 }
 
