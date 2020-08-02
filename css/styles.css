@@ -290,6 +290,10 @@ label {
 /* Форма закза */
 
 .modal {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -372,11 +376,26 @@ label {
   border-radius: 4px;
 }
 
-.order__checkbox {
+.checkbox {
   margin-bottom: 30px;
 }
 
-.order__link {
+.checkbox__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.checkbox__text {
+  font-size: 14px;
+  line-height: 1.71px;
+}
+
+.checkbox__link {
+  font-size: 14px;
+  line-height: 1.71px;
   text-decoration-line: underline;
   color: #2196f3;
 }
@@ -384,7 +403,11 @@ label {
 /* Особености */
 
 .features__headline {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
 .features {
@@ -695,7 +718,11 @@ label {
 /* Наши проекты */
 
 .ourprojects__headline {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
 .ourprojects {
