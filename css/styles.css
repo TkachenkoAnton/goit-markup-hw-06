@@ -78,7 +78,8 @@ p {
 }
 
 img,
-a {
+a,
+label {
   display: block;
 }
 
@@ -294,6 +295,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 
+  width: 528px;
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
@@ -305,7 +307,25 @@ a {
   border-radius: 4px;
 }
 
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.closebtn__icon {
+  width: 18px;
+  height: 18px;
+  margin: auto;
+}
+
 .modal__invite {
+  display: block;
+  margin-bottom: 30px;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -314,7 +334,20 @@ a {
   color: var(--primary-headline);
 }
 
-.registration__comments {
+.order {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order__input {
+  width: 448px;
+  height: 40px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.order__comments {
   resize: none;
   width: 448px;
   height: 120px;
@@ -323,9 +356,19 @@ a {
   padding-right: 16px;
   padding-bottom: 12px;
   padding-left: 16px;
+  margin-bottom: 20px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.order__checkbox {
+  margin-bottom: 30px;
+}
+
+.order__link {
+  text-decoration-line: underline;
+  color: #2196f3;
 }
 
 /* Особености */

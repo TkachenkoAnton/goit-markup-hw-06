@@ -70,25 +70,43 @@
           </button>
           <div class="backdrop backdrop--hidden" data-modal>
             <div class="modal">
+
+                <button class="closebtn" type="button" data-modal-close>p
+                  <!-- <svg class="closebtn__icon">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </button> -->
+
               <b class="modal__invite"
                 >Оставьте свои данные, мы вам перезвоним</b
               >
-              <form>
-                <label>Имя<input type="text" name="name" /></label>
-                <label>Телефон<input type="tel" name="tel" /></label>
-                <label>Почта<input type="email" name="e-mail" /></label>
+              <form class="order">
+                <label
+                  >Имя<input class="order__input" type="text" name="name"
+                /></label>
+                <label
+                  >Телефон<input class="order__input" type="tel" name="tel"
+                /></label>
+                <label
+                  >Почта<input class="order__input" type="email" name="e-mail"
+                /></label>
                 <textarea
-                  class="registration__comments"
+                  class="order__comments"
                   name="comments"
                   id="comments"
                   placeholder="Комментарий"
                 ></textarea>
-                <label></label>
-                  <input type="checkbox" />Соглашаюсь с рассылкой и принимаю
-                  <a href="">Условия договора</a>
-                </label>
+                <div class="order__checkbox">
+                  <label>
+                    <input type="checkbox" /><span
+                      >Соглашаюсь с рассылкой и принимаю
+                    </span>
+                    <a class="link" href=""
+                      ><span class="order__link">Условия договора</span></a
+                    >
+                  </label>
+                </div>
                 <button class="mainbtn" type="submit">Отправить</button>
-                <button type="button" data-modal-close>Закрыть</button>
               </form>
             </div>
           </div>
