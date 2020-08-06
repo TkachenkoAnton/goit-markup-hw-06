@@ -379,7 +379,7 @@ label {
 .checkbox {
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 34px;
   margin-bottom: 30px;
 }
 
@@ -398,7 +398,7 @@ label {
   position: absolute;
   width: 16px;
   height: 15px;
-  margin-left: -20px;
+  margin-left: -23px;
   border: 2px solid var(--primary-headline);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
