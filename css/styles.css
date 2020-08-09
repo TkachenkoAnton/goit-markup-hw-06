@@ -290,10 +290,6 @@ label {
 /* Форма закза */
 
 .modal {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -396,14 +392,7 @@ label {
 }
 
 .order__label:focus-within .order__text,
-.comments:focus-within .comments__text {
-  transform: translate(-25px, -30px);
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--activestate);
-}
-
+.comments:focus-within .comments__text,
 .order__input:not(:placeholder-shown) + .order__text,
 .comments__area:not(:placeholder-shown) + .comments__text {
   transform: translate(-25px, -30px);
@@ -412,6 +401,24 @@ label {
   letter-spacing: 0.01em;
   color: var(--activestate);
 }
+
+/* .order__input:valid + .order__text,
+.comments__area:not(:placeholder-shown) + .comments__text {
+  transform: translate(-25px, -30px);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--activestate);
+} */
+
+/* .order__input:not(:placeholder-shown) + .order__text,
+.comments__area:not(:placeholder-shown) + .comments__text {
+  transform: translate(-25px, -30px);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--activestate);
+} */
 
 .comments__area {
   resize: none;
